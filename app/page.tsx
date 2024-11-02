@@ -1,12 +1,3 @@
-import Hello from "./components/hello";
+const Home = () => <h1 className="h1-bold">Welcome to the world of Next.js</h1>;
 
-export default function Home() {
-  console.log("Which component am I?");
-
-  return (
-    <main>
-      <h1 className='text-3xl font-bold'>Welcome to Next.js</h1>
-      <Hello />
-    </main>
-  );
-}
+export default Home;
